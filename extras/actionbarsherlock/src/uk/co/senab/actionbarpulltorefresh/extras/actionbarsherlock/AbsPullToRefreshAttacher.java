@@ -16,18 +16,18 @@
 
 package uk.co.senab.actionbarpulltorefresh.extras.actionbarsherlock;
 
+import android.app.Activity;
+import android.content.Context;
+import android.os.Build;
+import android.view.View;
+import android.widget.FrameLayout;
+
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.app.SherlockExpandableListActivity;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.app.SherlockListActivity;
 import com.actionbarsherlock.app.SherlockPreferenceActivity;
-
-import android.app.Activity;
-import android.content.Context;
-import android.os.Build;
-import android.view.View;
-import android.widget.FrameLayout;
 
 import uk.co.senab.actionbarpulltorefresh.library.EnvironmentDelegate;
 import uk.co.senab.actionbarpulltorefresh.library.HeaderTransformer;

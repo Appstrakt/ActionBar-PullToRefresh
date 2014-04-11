@@ -16,13 +16,13 @@
 
 package uk.co.senab.actionbarpulltorefresh.samples.actionbarsherlock;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuItem;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.widget.Toast;
+
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuItem;
 
 abstract class BaseSampleActivity extends SherlockFragmentActivity {
 

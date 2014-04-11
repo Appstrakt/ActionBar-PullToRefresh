@@ -16,8 +16,6 @@
 
 package uk.co.senab.actionbarpulltorefresh.samples.actionbarsherlock;
 
-import com.actionbarsherlock.app.SherlockListActivity;
-
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -34,6 +32,8 @@ import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.actionbarsherlock.app.SherlockListActivity;
 
 import java.util.ArrayList;
 

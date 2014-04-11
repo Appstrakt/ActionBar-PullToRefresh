@@ -22,8 +22,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
-import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
 import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
+import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
 
 /**
  * This sample shows how to use ActionBar-PullToRefresh with a

@@ -27,8 +27,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
-import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
 import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
+import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
 
 /**
  * A sample which show you how to use {@link PullToRefreshLayout} with Fragments.

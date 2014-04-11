@@ -16,12 +16,12 @@
 
 package uk.co.senab.actionbarpulltorefresh.samples.actionbarsherlock;
 
-import com.actionbarsherlock.app.SherlockActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.actionbarsherlock.app.SherlockActivity;
 
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
 import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
