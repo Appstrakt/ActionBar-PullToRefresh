@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.9.+'
+        classpath 'com.android.tools.build:gradle:0.12.+'
     }
 }
 repositories {
@@ -14,12 +14,12 @@ apply plugin: 'android-library'
 
 dependencies {
     compile project(':libraries:pull_to_refresh:library')
-    compile "com.android.support:appcompat-v7:+"
+    compile "com.android.support:appcompat-v7:19.0.0"
 }
 
 android {
-    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
-    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion Integer.parseInt(project.android_build_compileSdkVersion)
+    buildToolsVersion project.android_build_buildToolsVersion
 
     defaultConfig {
         minSdkVersion 7
